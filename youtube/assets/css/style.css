@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.div-topo{
+  width: 98%;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bars-topo{
+  position: relative;
+  top: -7px;
+}
+
+.image-left{
+  width: 100%;
+  max-width: 80px;
+  margin-left: 20px;
+}
+
+.topo-center{
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-topo{
+  width: 100%;
+  max-width: 600px;
+  padding: 7px 10px;
+  margin-left: 160px;
+  margin-top: -6px;
+  outline-color: #0a77d5;
+}
+
+.button-search{
+  padding: 7px 27px;
+  margin-top: -6px;
+}
+
+.mic-topo{
+  margin-left: 25px;
+  color: black;
+  font-size: 20px;
+  
+}
+
+.th-topo{
+  margin-left: 65px;
+}
+
+.ellipsis-topo{
+  margin-left: 50px;
+  color: black;
+  font-size: 20px;
+}
+
+.login-topo{
+  margin-left: 30px;
+  padding: 10px 10px;
+  border: none;
+  color: blue;
+  background: white;
+  font-weight: bold;
+  
+}
+
+.user-login{
+  color: blue;
+  font-size: 20px !important;
+}
+
+.lateral{
+  width: 100%;
+  max-width: 220px;
+  height: 1000px;
+  float: left;
+}
+
+.item-lateral-active{
+  max-width: 100%;
+  padding: 11px 13px;
+  margin-top: 20px;
+  color: #bcb6b6;
+  font-size: 14px !important;
+  background: #edf3efe2;
+  cursor: pointer;
+}
+
+
+.item-lateral-active:houver{
+  background: #d0d0d0;
+}
+
+
+.icone-lateral-active{
+  color: red;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
+
+
+.item-lateral{
+  max-width: 100%;
+  padding: 11px 13px;
+  color: #919191;
+  font-size: 14px !important;
+  cursor: pointer;
+}
+
+.item-lateral:houver{
+  background: #e0dfdf;
+}
+
+.icone-lateral{
+  color: #919191;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
+.separator{
+  border-color: #ffffff41;
+  margin-top: 20px;
+}
+
+.curtir-lateral{
+  max-width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+.text-login-topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-lateral {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  padding: 7px;
+  margin-left: 45px;
+  border: none;
+}
+
+.text-login-lateral {
+  align-items: center; /* Alinha verticalmente ao centro */
+  margin-bottom: 1px;   /* Ajuste a margem conforme necessário */
+  margin-left: 10px;
+}
+
+.melhor-lateral{
+  max-width: 100%;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: bold;
+  color: gray;
+}
+.meio-separator-cima{
+  border-color: #d6d6d685 !important;
+  margin: 17px 0px 10px 0px ;
+  position: relative;
+}
+.meio-separator-baixo{
+  border-color: #d6d6d685 !important;
+  margin: 30px 0px 10px 0px ;
+  position: relative;
+  top: -25px;
+}
+.meio{
+  height: 1000px;
+  margin-top: 20px;
+  border-left: 2px solid gray;
+  display: flex;
+}
+
+.btn-meio-active{
+  font-size: 10px;
+  padding: 7px;
+  color: white;
+  border: 1px solid #b2b2b26e;
+  border-radius: 30px;
+  margin-left: 20px;
+  background: #707070da;
+}
+
+.btn-meio{
+  font-size: 10px;
+  padding: 6px;
+  color: black;
+  border: 1px solid #b2b2b26e;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-bottom: 9px;
+}
+
+.logo-premiun{
+  width: 100%;
+  height: 50%;
+}
+
